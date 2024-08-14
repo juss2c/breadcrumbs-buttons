@@ -47,11 +47,15 @@ ul, li {
     margin-top: 15px;
 }
 */
-.breadcrumb > crumb {
+.crumb {
+    margin-top: 15px;
+}
+
+.breadcrumb > .crumb {
     display: inline !important;
 }
 
-.breadcrumb crumb+crumb::before {
+.breadcrumb .crumb+.crumb::before {
     content: ">";
     padding: 10px;
 }
