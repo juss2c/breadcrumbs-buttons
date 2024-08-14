@@ -46,7 +46,7 @@ body {
 }
 
 .breadcrumb > .crumb {
-   /* display: inline; */
+    display: inline !important;
 }
 
 .breadcrumb .crumb+.crumb::before {
