@@ -34,9 +34,8 @@ body {
 
 .breadcrumb {
     text-align: left;   
-    padding-left: 1em;
-   /* float: left;*/
-}    
+    padding-left: 10px;
+   
 
 .crumb {
     margin-top: 15px;
@@ -53,6 +52,7 @@ body {
 
 .breadcrumb a {
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .breadcrumb a:hover {
