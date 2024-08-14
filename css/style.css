@@ -46,7 +46,7 @@ body {
 }
 
 .breadcrumb > .crumb {
-   /* display: inline; */
+   /* display: inline if you don't use a container */
 }
 
 .breadcrumb .crumb+.crumb::before {
@@ -59,7 +59,7 @@ body {
 }
 
 .breadcrumb a:hover {
-     color: red;
+     color: #5c34052b;
 }
 
 .spacer {
