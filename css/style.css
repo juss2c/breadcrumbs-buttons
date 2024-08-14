@@ -34,12 +34,12 @@ body {
 
 .breadcrumb {
     text-align: left;   
-    padding-left: 1em;
+    padding-left: 15px;
    /* float: left;*/
 }    
 
 .crumb {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .breadcrumb > .crumb {
