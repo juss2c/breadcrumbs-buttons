@@ -25,11 +25,12 @@ body {
 }
 .container {
     display: inline-flex;
+    width: 100%;
+    height:auto;
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;  
-    height: auto;  
     padding: 10px 10px;
     border: 2px solid green;
 }    
