@@ -25,7 +25,7 @@ body {
 }
 .container {
     /* display: inline-flex; */
-    width: 850px;
+    width: 90%;
     height: 250px;
     margin: 20px auto 20px auto;
     padding: 7px 7px;
