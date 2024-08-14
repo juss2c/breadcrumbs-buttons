@@ -36,11 +36,11 @@ body {
     text-align: left;   
     padding-top: 15px;
     padding-left: 15px;
-    font-family: 'Croissant One', 'sans-serif';
-    font-size: 1em;
    }    
 
 .crumb {
+    font-family: 'Croissant One', 'sans-serif';
+    font-size: 1.1em;
     margin-top: 20px;
 }
 
