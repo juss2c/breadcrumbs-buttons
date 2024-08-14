@@ -27,10 +27,7 @@ body {
     display: inline-flex;
     width: 90%;
     height:auto;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;  
+    margin-top: 20px 20px;
     padding: 10px 10px;
     border: 2px solid rgb(68, 11, 173);
 }    
@@ -38,6 +35,7 @@ body {
 .breadcrumb {
     text-align: left;   
     padding-left: 1em;
+    float: left;
 }    
 
 ul {
