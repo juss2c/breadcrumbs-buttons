@@ -25,10 +25,9 @@ body {
 }
 .container {
     /* display: inline-flex; */
-    width: 87%;
+    width: 70%;
     height: 250px;
     margin: 0 auto;
-    margin:auto;
     padding: 7px 7px;
     border: 1px solid rgb(68, 11, 173);
 }    
