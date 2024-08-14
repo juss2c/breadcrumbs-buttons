@@ -25,7 +25,7 @@ body {
 }
 .container {
     /* display: inline-flex; */
-    width: auto; /*set width to auto from 800px*/
+    width: 800px;
     height: 250px;
     margin: 0 auto;
     padding: 7px 7px;
