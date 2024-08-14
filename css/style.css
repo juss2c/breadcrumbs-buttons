@@ -27,22 +27,25 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;    
+    margin-left: 20px;  
+    height:auto;  
     padding: 10px 10px;
     border: 2px solid green;
 }    
 
 .breadcrumb {
-    float: left;   
+    text-align: left;   
     padding-left: 1em;
 }    
 
 ul, li {
     list-style-type: none;
+    
 }
 
 .breadcrumb > li {
     display: inline !important;
+    float: left !important;
 }
 
 .breadcrumb li+li::before {
