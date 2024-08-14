@@ -29,7 +29,7 @@ body {
     height: 250px;
     margin: 15px 15px;
     padding: 7px 7px;
-    border: 2px solid rgb(68, 11, 173);
+    border: 0px solid rgb(68, 11, 173);
 }    
 
 .breadcrumb {
@@ -40,7 +40,7 @@ body {
 }    
 
 .crumb {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .breadcrumb > .crumb {
