@@ -4,7 +4,7 @@
 /* Universal Styles */
 * {
     box-sizing: border-box;
-    margin: 25px;
+    margin: 0;
     padding: 0;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 .container {
     /* display: inline-flex; */
-    width: 700px;
+    width: 850px;
     height: 250px;
     margin: 0 auto;
     padding: 7px 7px;
