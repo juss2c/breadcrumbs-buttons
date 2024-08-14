@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Croissant One';
-    src: url('../fonts/CroissantOne-Regular.ttf') format('truetype');
+    src: url('./fonts/CroissantOne-Regular.ttf') format('truetype');
 }
 
 html, body {
@@ -36,6 +36,8 @@ body {
     text-align: left;   
     padding-top: 15px;
     padding-left: 15px;
+    font-family: 'Croissant One', 'sans-serif';
+    font-size: 1.5em;
    /* float: left;*/
 }    
 
