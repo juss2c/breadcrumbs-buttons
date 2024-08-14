@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document *
+
+/* Universal Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Croissant One';
+    src: url('../fonts/CroissantOne-Regular.ttf') format('truetype');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://screamer2.com/codecademy/dasmoto_arts_crafts/images/1000_F_72a.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+.container {
+    padding: 5px 10px;
+}    
+
+.breadcrumb {
+    text-align: left;
+}    
+
+.breadcrumb > li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: ">";
+    padding: 10px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+     color: red;
+}
+
+.spacer {
+    margin-top: 3em;
+}
