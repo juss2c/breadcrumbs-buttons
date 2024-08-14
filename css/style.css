@@ -25,14 +25,14 @@ body {
 }
 .container {
     display: inline-flex;
-    width: 100%;
+    width: 90%;
     height:auto;
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;  
     padding: 10px 10px;
-    border: 2px solid green;
+    border: 2px solid rgb(68, 11, 173);
 }    
 
 .breadcrumb {
