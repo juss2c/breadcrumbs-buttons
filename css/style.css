@@ -27,7 +27,7 @@ body {
     /* display: inline-flex; */
     width: 850px;
     height: 250px;
-    margin: 0 auto;
+    margin: 20px auto 20px auto;
     padding: 7px 7px;
     border: 1px solid rgb(68, 11, 173);
 }    
