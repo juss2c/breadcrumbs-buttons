@@ -46,7 +46,7 @@ body {
 }
 
 .breadcrumb > .crumb {
-    display: inline !important;
+    display: inline;  /*had the important declaration here*/
 }
 
 .breadcrumb .crumb+.crumb::before {
