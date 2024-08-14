@@ -12,12 +12,12 @@
     font-family: 'Croissant One';
     src: url('../fonts/CroissantOne-Regular.ttf') format('truetype');
 }
-
+/*
 html, body {
     padding: 0;
     margin: 0;
 }
-
+*/
 body {
     background-image: url('https://screamer2.com/codecademy/dasmoto_arts_crafts/images/1000_F_72a.png');
     background-size: cover;
