@@ -24,12 +24,14 @@ body {
     opacity: 0.9;
 }
 .container {
+    width: auto;
     padding: 10px 10px;
     border: 2px solid black;
 }    
 
 .breadcrumb {
     text-align: left;
+    
 }    
 
 .breadcrumb > li {
