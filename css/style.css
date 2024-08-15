@@ -24,7 +24,7 @@ body {
     opacity: 0.9;
 }
 .container {
-    /* display: inline-flex; */
+/* display: inline-flex; */
     width: 90%;
     height: 250px;
     margin: 20px auto 20px auto;
@@ -46,7 +46,7 @@ body {
 }
 
 .breadcrumb > .crumb {
-    display: inline;  /*had the important declaration here*/
+    display: inline;  /* had the !important declaration here */
 }
 
 .breadcrumb .crumb+.crumb::before {
