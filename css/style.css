@@ -12,30 +12,44 @@
     font-family: 'Croissant One';
     src: url('../fonts/CroissantOne-Regular.ttf') format('truetype');
 }
-
+/*
 html, body {
     padding: 0;
     margin: 0;
 }
-
+*/
 body {
     background-image: url('https://screamer2.com/codecademy/dasmoto_arts_crafts/images/1000_F_72a.png');
     background-size: cover;
     opacity: 0.9;
 }
 .container {
-    padding: 5px 10px;
+/* display: inline-flex; */
+    width: 90%;
+    height: 250px;
+    margin: 20px auto 20px auto;
+    padding: 7px 7px;
+    border: 1px solid rgb(68, 11, 173);
 }    
 
 .breadcrumb {
-    text-align: left;
-}    
+    text-align: left;   
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Croissant One', Verdana, 'sans-serif';
+    font-size: 1.3em;
+   }    
 
-.breadcrumb > li {
-    display: inline
+.crumb {
+    margin-top: 20px;
+    
 }
 
-.breadcrumb li+li::before {
+.breadcrumb > .crumb {
+    display: inline;  /* had the !important declaration here */
+}
+
+.breadcrumb .crumb+.crumb::before {
     content: ">";
     padding: 10px;
 }
@@ -49,5 +63,5 @@ body {
 }
 
 .spacer {
-    margin-top: 3em;
+    margin-top: 10em;
 }
